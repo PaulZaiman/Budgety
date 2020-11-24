@@ -31,7 +31,11 @@ document.addEventListener('keypress',function(event){
 
     if (event.keyCode ===13 || event.which === 13 ){
         console.log('ENTER was pressed');
+       
+    } else if (event.keyCode != 13){
+        console.log('ENTER was not pressed');
     }
+    
 });
 
 
